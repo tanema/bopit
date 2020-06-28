@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "simple, quick, AABB framework-independent, collision system.",
   "main": "dist/bopit.js",
+  "module": "src/index.js",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
