@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    bop: './src/index.js',
+    bopit: './src/index.js',
     example: './example/index.js'
   },
   mode: 'production',

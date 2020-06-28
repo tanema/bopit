@@ -1,8 +1,8 @@
 {
-  "name": "bop",
+  "name": "bopit",
   "version": "1.0.0",
   "description": "simple, quick, AABB framework-independent, collision system.",
-  "main": "dist/bop.js",
+  "main": "dist/bopit.js",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/tanema/bop.js.git"
+    "url": "git+ssh://git@github.com/tanema/bopit.git"
   },
   "keywords": [
     "collision",
@@ -20,9 +20,9 @@
   "author": "Tim Anema",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tanema/bop.js/issues"
+    "url": "https://github.com/tanema/bopit/issues"
   },
-  "homepage": "https://github.com/tanema/bop.js#readme",
+  "homepage": "https://github.com/tanema/bopit#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.10.3",
     "babel-core": "^6.26.3",
