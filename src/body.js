@@ -15,10 +15,8 @@ const toFixed = (...nums) => {
 }
 
 class Body {
-  constructor (x, y, w, h, isStatic) {
+  constructor (x, y, w, h) {
     [this.x, this.y, this.w, this.h] = [x, y, w, h]
-    this.static = !!isStatic
-    this.cells = []
   }
 
   set x (val) { this._x = toFixed(val) }

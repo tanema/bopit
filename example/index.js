@@ -7,9 +7,9 @@ const ctx = canvas.getContext('2d')
 const world = new World(32)
 const body = new Body(120, 120, 20, 20)
 body.add(world)
-const wall1 = new Body(100, 100, 400, 10, true)
+const wall1 = new Body(100, 100, 400, 10)
 wall1.add(world)
-const wall2 = new Body(100, 100, 10, 400, true)
+const wall2 = new Body(100, 100, 10, 400)
 wall2.add(world)
 
 const bodies = [body, wall1, wall2]
