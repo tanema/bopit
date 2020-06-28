@@ -1,15 +1,15 @@
-# Bop
+# Bopit
 Simple, quick, AABB framework-independent, collision system.
 
 ### What it Does
-* `Bop` only does axis-aligned bounding-box (AABB) collisions. If you need anything
+* `Bopit` only does axis-aligned bounding-box (AABB) collisions. If you need anything
   more complicated than that (circles, polygons, etc.) use another library.
 * Handles tunnelling - all items are treated as "bullets". The fact that we only
   use AABBs allows doing this fast.
 * Strives to be fast while being economic in resources
 * It's centered on *detection*, but it also offers some (minimal & basic) *collision response*
 * Can also return the items that touch a point, a segment or a rectangular zone.
-* `Bop` is _gameistic_ instead of realistic.
+* `Bopit` is _gameistic_ instead of realistic.
 
 
 ### What it is ideal for
@@ -34,7 +34,7 @@ Simple, quick, AABB framework-independent, collision system.
 ## World
 
 ```
-import {World} from 'bop'
+import {World} from 'bopit'
 
 const world = new World()
 ```
@@ -64,7 +64,7 @@ Creates a new virtual space for tracking physical interactions split into cells.
 Try out the example by running `npm start` and then opening `http://localhost:8080/example`
 
 ```
-import {World, Body} from 'bop'
+import {World, Body} from 'bopit'
 const world = new World(32)
 const body = new Body(120, 120, 20, 20)
 body.add(world)
