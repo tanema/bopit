@@ -116,7 +116,8 @@ Returns the distance from one body to another
 ---
 
 # Example
-Try out the example by running `npm start` and then opening `http://localhost:8080/example`
+Try out the example by running `npm i && npm start` in the example directory and
+then opening `http://localhost:8080`
 
 ```
 import {World, Body} from 'bopit'

@@ -1,4 +1,4 @@
-import { World, Body } from '../src'
+import { World, Body } from 'bopit'
 import Keyboard from './keyboard'
 
 const canvas = document.getElementById('myCanvas')
