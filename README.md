@@ -37,7 +37,7 @@ Simple, quick, AABB framework-independent, collision system.
 import {World} from 'bop'
 
 const world = new World()
-``
+```
 
 ### new World(cellSize)
 
