@@ -1,6 +1,6 @@
 {
   "name": "bopit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple, quick, AABB framework-independent, collision system.",
   "main": "dist/bopit.js",
   "module": "src/index.js",
