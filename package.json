@@ -1,5 +1,5 @@
 {
-  "name": "bop.js",
+  "name": "bop",
   "version": "1.0.0",
   "description": "simple, quick, AABB framework-independent, collision system.",
   "main": "dist/bop.js",
@@ -33,6 +33,7 @@
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "extend-tape": "^1.2.0",
     "faucet": "0.0.1",

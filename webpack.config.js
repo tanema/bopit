@@ -1,20 +1,23 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    bop: './src/index.js',
+    example: './example/index.js'
+  },
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bop.js',
+    filename: '[name].js'
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: [/node_modules/, /\.test\.js$/],
-        use: { loader: "babel-loader" }
-      },
-    ],
+        use: { loader: 'babel-loader' }
+      }
+    ]
   },
-  externals: {},
-};
+  externals: {}
+}
