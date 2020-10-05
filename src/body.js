@@ -87,7 +87,7 @@ class Body {
     return this.world.queryRect(x, y, w, h)
       .map((other) => this._collide(other, goalX, goalY, filter))
       .filter((collision) => !!collision)
-      .sort((a, b) => a.distance < b.distance)
+      .sort((a, b) => a.distance - b.distance)
   }
 
   _collide (other, goalX, goalY, filter = (o) => defaultResp) {
